@@ -3,7 +3,9 @@ name: build and push the blog
 on:
   push:
     branches:
-      - compiled
+      - main
+    # Allows you to run this workflow manually from the Actions tab
+    workflow_dispatch:
 
 jobs:
   deploy:
