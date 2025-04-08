@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>tags on Naomi&#39;s Precious Little Blog</title>
-    <link>https://neopost.neocities.org/tags/</link>
+    <link>http://localhost:41595/tags/</link>
     <description>Recent content in tags on Naomi&#39;s Precious Little Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 01 Feb 2025 10:00:00 -0300</lastBuildDate>
-    <atom:link href="https://neopost.neocities.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:41595/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>meow</title>
-      <link>https://neopost.neocities.org/tags/meow/</link>
+      <link>http://localhost:41595/tags/meow/</link>
       <pubDate>Sat, 01 Feb 2025 10:00:00 -0300</pubDate>
-      <guid>https://neopost.neocities.org/tags/meow/</guid>
+      <guid>http://localhost:41595/tags/meow/</guid>
       <description></description>
     </item>
     <item>
       <title>rawr</title>
-      <link>https://neopost.neocities.org/tags/rawr/</link>
+      <link>http://localhost:41595/tags/rawr/</link>
       <pubDate>Wed, 29 Jan 2025 21:05:11 -0300</pubDate>
-      <guid>https://neopost.neocities.org/tags/rawr/</guid>
+      <guid>http://localhost:41595/tags/rawr/</guid>
       <description></description>
     </item>
   </channel>
