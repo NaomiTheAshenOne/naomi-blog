@@ -24,7 +24,7 @@ jobs:
           extended: true
 
       - name: build
-        run: hugo --gc --minify --buildFuture --themesDir ../../
+        run: hugo --gc --minify --buildFuture --themesDir themes
 
       - name: Push
         uses: s0/git-publish-subdir-action@develop
