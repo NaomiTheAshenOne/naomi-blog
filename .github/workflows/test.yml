@@ -14,21 +14,23 @@ jobs:
     steps:
       - name: checkout
         uses: actions/checkout@v4
+        with:
+          submodules: true
 
       - name: setup hugo
         uses: peaceiris/actions-hugo@v3
         with:
           hugo-version: 'latest'
-            #extended: true
+            extended: true
 
       - name: build
-        run: hugo --minify
+        run: hugo --gc --minify --buildFuture --themesDir ../../
 
       - name: Push
         uses: s0/git-publish-subdir-action@develop
         env:
           REPO: self
           BRANCH: compiled # The branch name where you want to push the assets
-          FOLDER: build # The directory where your assets are generated
+          FOLDER: public # The directory where your assets are generated
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # GitHub will automatically add this - you don't need to bother getting a token
           MESSAGE: "Built" # The commit message
