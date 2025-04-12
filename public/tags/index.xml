@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>tags on Naomi&#39;s Precious Little Blog</title>
-    <link>http://localhost:36773/tags/</link>
+    <link>https://blog.naomi.likes.gay/tags/</link>
     <description>Recent content in tags on Naomi&#39;s Precious Little Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 12 Apr 2025 10:00:00 -0600</lastBuildDate>
-    <atom:link href="http://localhost:36773/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://blog.naomi.likes.gay/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>personal</title>
-      <link>http://localhost:36773/tags/personal/</link>
+      <link>https://blog.naomi.likes.gay/tags/personal/</link>
       <pubDate>Sat, 12 Apr 2025 10:00:00 -0600</pubDate>
-      <guid>http://localhost:36773/tags/personal/</guid>
+      <guid>https://blog.naomi.likes.gay/tags/personal/</guid>
       <description></description>
     </item>
     <item>
       <title>technology</title>
-      <link>http://localhost:36773/tags/technology/</link>
+      <link>https://blog.naomi.likes.gay/tags/technology/</link>
       <pubDate>Sat, 12 Apr 2025 10:00:00 -0600</pubDate>
-      <guid>http://localhost:36773/tags/technology/</guid>
+      <guid>https://blog.naomi.likes.gay/tags/technology/</guid>
       <description></description>
     </item>
   </channel>
