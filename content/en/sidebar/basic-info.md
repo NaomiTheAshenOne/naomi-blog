@@ -2,4 +2,5 @@
 headless: true
 ---
 - Useful Tags:
-* test
+* [Personal](/tags/personal/)
+* [Technology](/tags/technology/)
