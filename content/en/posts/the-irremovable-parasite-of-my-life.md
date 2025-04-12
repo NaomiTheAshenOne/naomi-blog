@@ -2,7 +2,7 @@
 title: "The irremovable parasite of my life -  a short write about my attempts to cure phone addiction"
 date: "2025-04-12T10:00:00-06:00"
 tags: ["personal", "technology"]
-title-images:
+title-images: []
 ending-images: []
 author: "NaomiTheAshenOne"
 draft: false
