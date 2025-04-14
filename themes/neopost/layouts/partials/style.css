@@ -433,7 +433,7 @@ header h1 a:hover {
 .table-of-contents {
     background-color: var(--bg-color2);
     padding: .3em;
-    border: 2px solid var(--border-color);
+    border: 4px solid var(--border-color);
     border-radius: .3em;
     box-shadow: var(--post-shadow-color) 5px 5px;
 }
@@ -470,12 +470,13 @@ header h1 a:hover {
 
 #single-post {
     display: flex;
+    justify-content: center;
     gap: 1rem;
+    margin-right: 12px;
 }
 
 #single-post > article {
-    width: 100%;
-    margin-bottom: 0;
+    max-width: 48.1rem;
 }
 
 #single-post > article > #post-toc-mobile {
