@@ -1,23 +1,37 @@
-<style>
-{{ $themeName := .Site.Params.theme }}
-{{ $theme := index (where .Site.Data.themes "name" $themeName) 0 }}
+<!DOCTYPE html>
+<html lang="en">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <title>posts | Naomi&#39;s Precious Little Blog</title>
+    <link rel="canonical" href="http://localhost:1313/">
+
+    
+    <link rel="icon" href="/favicon.ico">
+    
+
+    <meta name="description" content="">
+
+    
+
+    <style>
+
+
 
 :root {
-    --site-bg: url("{{ index $theme "site-bg" }}");
-    --accent-color: {{ index $theme "accent-color" }};
-    --select-color: {{ index $theme "select-color" }};
-    --link-color: {{ index $theme "link-color" }};
-    --bg-color: {{ index $theme "bg-color" }};
-    --text-color: {{ index $theme "text-color" }};
-    --bg-color2: {{ index $theme "bg2-color" }};
-    --border-color: {{ index $theme "border-color" }};
-    --special-text-color: {{ index $theme "special-text-color" }};
-    --post-header-color: {{ index $theme "post-header-color" }};
-    --post-shadow-color: {{ index $theme "post-shadow-color" }};
-    --outline-color: {{ index $theme "post-outline-color" }};
-    --outline-color2: {{ index $theme "post-outline-color2" }};
-    --list-style-type: "{{ (index $theme "list-style").type}}";
-    --list-style-image: url("{{ (index $theme "list-style").image }}");
+    --site-bg: url("");
+    --accent-color: #9f1239;
+    --select-color: #fededa;
+    --link-color: #9f1239;
+    --bg-color: #d9d3b1;
+    --text-color: #191919;
+    --bg-color2: #ece9d8;
+    --border-color: #d9d3b1;
+    --special-text-color: #000000;
+    --post-header-color: #fededa;
+    --post-shadow-color: #054038;
+    --outline-color: #9f1239;
+    --outline-color2: #000000;
+    --list-style-type: "• ";
+    --list-style-image: url("");
 }
 
 * {
@@ -88,7 +102,7 @@ header > h1 {
     color: var(--special-text-color);
     margin: 0 auto;
     font-size: 2em;
-    /*uncomment this line if you want the header text to not take up the full length of the div*/
+     
     max-width: 946px;
     height: 100px;
     text-indent: -9999px;
@@ -112,7 +126,7 @@ header > h1 > a {
     position: absolute;
     top: 0;
     left: 0;
-    z-index: 10; /* Ensures the link is on top of other elements */
+    z-index: 10;  
     cursor: pointer;
 }
 
@@ -158,11 +172,9 @@ li.page-item:not(.disabled):not(.active) a:hover{
 }
 
 li {
-    {{ if (index $theme "list-style").image }}
-        list-style-image: var(--list-style-image);
-    {{ else }}
+    
         list-style-type: var(--list-style-type);
-    {{ end }}
+    
 }
 
 nav {margin: 1em;}
@@ -255,18 +267,15 @@ a:hover {
     max-width: 320px;
 }
 
-/*flower shape generated from here: https://css-generators.com/flower-shapes/ */
+ 
 .flower {
     width: 300px; 
     aspect-ratio: 1;
-    {{ with .Site.GetPage "section" "/sidebar/_index.md" }}
-    {{ if index .Params "icon-use-flower-shape" }}
-        --g:/37.02% 37.02% radial-gradient(#000 calc(71% - 1px),#0000 71%) no-repeat;
-        mask: 90.078% 79.895% var(--g),33.953% 97.355% var(--g),0.004% 49.372% var(--g),35.148% 2.257% var(--g),90.817% 21.121% var(--g),radial-gradient(100% 100%,#000 25.476%,#0000 calc(25.476% + 1px));
-    {{ else }}
+    
+    
         border-radius: 50%;
-    {{ end }}
-    {{ end }}
+    
+    
 }
 
 #bio {
@@ -414,9 +423,9 @@ header h1 a:hover {
     color: var(--link-color);
     font-weight: bold;
     background-color: var(--bg-color);
-    /* border: 4px double var(--outline-color); */
+     
     border: 1px solid var(--outline-color);
-    /* padding: .5em 3em; */
+     
     text-decoration: none;
 }
 
@@ -483,7 +492,7 @@ header h1 a:hover {
     display: none;
 }
 
-/* these are the mobile styles! */
+ 
 @media only screen and (max-width: 800px) {
     #content {
         flex-wrap: wrap;
@@ -502,7 +511,7 @@ header h1 a:hover {
     }
 
     nav.links > ul {
-    /* this stuff makes it wrap around on mobile */
+     
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
@@ -532,7 +541,7 @@ header h1 a:hover {
         color: var(--special-text-color);
         margin: 0 auto;
         font-size: 2em;
-        /*uncomment this line if you want the header text to not take up the full length of the div*/
+         
         max-width: 946px;
         height: 100px;
         text-indent: -9999px;
@@ -549,3 +558,16 @@ header h1 a:hover {
         box-shadow: var(--post-shadow-color) 5px 5px;
     }
 </style>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="index, follow">
+    <meta charset="utf-8">
+</head>
+<body>
+        <header><h1 id="Naomi&#39;s Precious Little Blog"><a href="http://localhost:1313/">Naomi&#39;s Precious Little Blog</a></h1></header>
+<main>
+    
+    
+</main>
+</body>
+</html>
