@@ -37,11 +37,3 @@ jobs:
           FOLDER: public # The directory where your assets are generated
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # GitHub will automatically add this - you don't need to bother getting a token
           MESSAGE: "Built" # The commit message
-
-      - name: deploy to neocities
-        uses: bcomnes/deploy-to-neocities@v3
-        with:
-          api_key: ${{ secrets.NEOCITIES_API_KEY }}
-          cleanup: true
-          neocities_supporter: false
-          dist_dir: public
