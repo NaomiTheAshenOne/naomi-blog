@@ -1,6 +1,5 @@
 - name: "nami"
-  #site-bg: "/perry.png" #site backgorund colour (there has to be a beitter way..)
-  favicon: "/perry.png"
+  #site-bg: "/perry.png"
   accent-color: "#9f1239" #selected page and scroll bar
   select-color: "#fededa" #when ya hover over
   link-color: "#9f1239" #link colour  duh
