@@ -1,7 +1,7 @@
 ---
 title: "I H8 ISPs - And I have the solution!"
 date: "2025-04-18T11:00:00-02:00"
-tags: ["personal", "technology", "selfhosted", "projects"]
+tags: ["technology", "selfhosted", "projects"]
 title-images: []
 ending-images: []
 author: "NaomiTheAshenOne"

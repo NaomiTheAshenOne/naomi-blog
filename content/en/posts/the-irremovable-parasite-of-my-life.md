@@ -1,7 +1,7 @@
 ---
 title: "The irremovable parasite of my life - Being reliant on phones"
 date: "2025-04-12T10:00:00-06:00"
-tags: ["personal", "technology"]
+tags: ["personal", "technology", "phones"]
 title-images: []
 ending-images: []
 author: "NaomiTheAshenOne"

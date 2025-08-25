@@ -3,4 +3,4 @@ headless: true
 ---
 Bio:
 
-Wait aren't I a digital support techinican..?
+Wait aren't I a digital support technician..?
