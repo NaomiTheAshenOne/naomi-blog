@@ -1,2 +1,2 @@
 # blog
-personal blog with Hugo
+Personal blog with Hugo
